@@ -299,3 +299,14 @@ button {
 	font-weight: normal;
 	margin-left: .2em
 }
+
+.current-page {
+	background-color: #666666;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 0 7px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+a.current-page {color: #ffffff}
