@@ -21,7 +21,7 @@
 <p><?php _e('You are logged in as'); ?> <a href="<?php URL::out( 'admin', 'page=user&user=' . $user->username ) ?>"><?php echo $user->username; ?></a>.</p>
 <p><?php _e('Want to'); ?> <a href="<?php Site::out_url( 'habari' ); ?>/auth/logout"><?php _e('log out'); ?>?</a></p>
 <?php } ?>
-
+<?php $theme->area( 'sidebar' ); ?>
 <?php Plugins::act( 'theme_sidebar_bottom' ); ?>
 </div>
 <div class="clear"></div>
